@@ -1,0 +1,70 @@
+[global_config]
+  always_split_with_profile = True
+  borderless = True
+  extra_styling = False
+  inactive_color_offset = 0.86
+  suppress_multiple_term_dialog = True
+  title_font = Menlo for Powerline 4
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#555753"
+  title_inactive_fg_color = "#555753"
+  title_receive_bg_color = "#f0c674"
+  title_receive_fg_color = "#f0c674"
+  title_transmit_bg_color = "#b5bd68"
+  title_transmit_fg_color = "#b5bd68"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 16d3ca27-c51c-42f0-8017-56f28f8fb5c8
+      last_active_window = False
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:22
+      size = 1916, 1033
+      title = matt.grunwald@OH-94D20M2: ~/Projects/dev-env
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 956
+      ratio = 0.500261643119
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 828
+      ratio = 0.805447470817
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 42684ab9-e6b9-49fa-9415-e8fd513bc6f9
+    [[[terminal4]]]
+      order = 0
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 16d3ca27-c51c-42f0-8017-56f28f8fb5c8
+    [[[terminal5]]]
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 6c17c844-0883-4a80-8eed-eda9408e31db
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1d1f21"
+    background_darkness = 0.88
+    copy_on_selection = True
+    cursor_color = "#c5c8c6"
+    font = Menlo for Powerline 11
+    foreground_color = "#c5c8c6"
+    palette = "#1d1f21:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#c5c8c6:#1d1f21:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#c5c8c6"
+    use_system_font = False

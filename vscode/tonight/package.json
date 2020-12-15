@@ -1,0 +1,21 @@
+{
+    "name": "tonight",
+    "displayName": "Tonight",
+    "description": "Dark+ with Tomorrow Night Colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tonight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tonight-color-theme.json"
+            }
+        ]
+    }
+}

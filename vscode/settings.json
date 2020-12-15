@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.disableLanguages": [],
+  "editor.fontFamily": "'Fira Code Retina','Menlo', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": "'ss01', 'ss03', 'ss05'"
+}
